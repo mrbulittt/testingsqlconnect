@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="sqltesting/App.axaml" value="sqltesting/sqltesting.csproj" />
+        <entry key="sqltesting/ControlPages/UsersPage.axaml" value="sqltesting/sqltesting.csproj" />
+        <entry key="sqltesting/Views/ChangeLoginWindow.axaml" value="sqltesting/sqltesting.csproj" />
+        <entry key="sqltesting/Views/CreateAndChangeUser.axaml" value="sqltesting/sqltesting.csproj" />
+        <entry key="sqltesting/Views/LookAndChangeLoginWindow.axaml" value="sqltesting/sqltesting.csproj" />
+        <entry key="sqltesting/Views/MainWindow.axaml" value="sqltesting/sqltesting.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,38 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="sqltesting.CreateAndChangeBasket"
+        Title="CreateAndChangeBasket"
+		xmlns:vm="using:sqltesting.ViewModels"
+		x:DataType="vm:MainWindowViewModel">
+	
+	<Grid RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto, Auto">
+
+		<TextBlock Text="Пользователь:" Grid.Row="0" HorizontalAlignment="Left"/>
+		<ComboBox Name="ComboUsers" Grid.Row="1" ItemsSource="{Binding Users}" HorizontalAlignment="Left" Width="200"  Margin="0 20 0 0">
+			<ComboBox.ItemTemplate>
+				<DataTemplate>
+					<TextBlock Name="NameUserText" FontWeight="Bold" Text="{Binding FullName}"/>
+				</DataTemplate>
+			</ComboBox.ItemTemplate>
+		</ComboBox>
+
+		<TextBlock Text="Товар:" Grid.Row="2" HorizontalAlignment="Left"/>
+		<ComboBox Name="ComboItems" Grid.Row="3" ItemsSource="{Binding Items}" HorizontalAlignment="Left" Width="200"  Margin="0 20 0 0">
+			<ComboBox.ItemTemplate>
+				<DataTemplate>
+					<TextBlock Name="NameItemText" FontWeight="Bold" Text="{Binding NameItem}"/>
+				</DataTemplate>
+			</ComboBox.ItemTemplate>
+		</ComboBox>
+		
+		<TextBlock Text="Количество:" Grid.Row="4" HorizontalAlignment="Left"/>
+		<TextBox Grid.Row="5" Name="CountText" Width="300" HorizontalAlignment="Left"/>
+		
+		
+		<Button Click="SaveButton_Click" Content="Сохранить" Grid.Row="6"/>
+		
+	</Grid>
+</Window>

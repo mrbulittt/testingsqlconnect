@@ -1,0 +1,33 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="sqltesting.BasketPAge"
+			 xmlns:vm="using:sqltesting.ViewModels"
+			 x:DataType="vm:MainWindowViewModel">
+
+	<Grid RowDefinitions="*, Auto">
+		<DataGrid IsReadOnly="True" 
+				  DoubleTapped="DataGrid_DoubleTapped" 
+				  Name="BasketDataGrid" Grid.Row="0" 
+				  ItemsSource="{Binding Baskets}">
+			<DataGrid.Columns>
+				<DataGridTextColumn Header="FullName" Binding="{Binding IdItemNavigation.NameItem}"/>
+				<DataGridTextColumn Header="NameItem" Binding="{Binding IdUserNavigation.FullName}"/>
+				<DataGridTextColumn Header="Count" Binding="{Binding Count}"/>
+
+				<DataGridTemplateColumn Header="Delete" Width="50">
+					<DataGridTemplateColumn.CellTemplate>
+						<DataTemplate>
+							<Button Click="DeleteButton_Click" Content="🗑️"/>
+						</DataTemplate>
+					</DataGridTemplateColumn.CellTemplate>
+				</DataGridTemplateColumn>
+			
+			</DataGrid.Columns>
+		</DataGrid>
+		<Button Content="Добавление" Grid.Row="1" Click="AddButton_Click"/>
+	</Grid>
+	
+</UserControl>

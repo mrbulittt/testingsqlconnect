@@ -1,0 +1,37 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="sqltesting.Views.CreateAndChangeUser"
+		xmlns:vm="using:sqltesting.ViewModels"
+		x:DataType="vm:MainWindowViewModel"
+        Title="CreateAndChangeUser">
+    <Grid RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto" Margin="10">
+        <TextBlock Text="ФИО:" Grid.Row="0" />
+        <TextBox Grid.Row="2" Name="FullNameText" Width="300" HorizontalAlignment="Left"/>
+        <TextBlock Text="Номер телефона:" Grid.Row="3"/>
+        <TextBox Grid.Row="4" Name="PhoneNumberText" Width="300" HorizontalAlignment="Left"/>
+        <TextBlock Text="Описание:" Grid.Row="5"/>
+        <TextBox Grid.Row="6" Name="DescriptionText" Width="300" Height="150" HorizontalAlignment="Left"/>
+		<TextBlock Text="Логин пользователя:" Grid.Row="0" HorizontalAlignment="Right"/>
+		<TextBox Grid.Row="2" Name="Login1Text" HorizontalAlignment="Right" Width="300"/>
+		<TextBlock Text="Пароль:" Grid.Row="3" HorizontalAlignment="Right"/>
+		<TextBox Grid.Row="4" Name="PasswordText" HorizontalAlignment="Right" Width="300"/>
+
+		<TextBlock Text="Роль:" Grid.Row="5" HorizontalAlignment="Right"/>
+		<ComboBox Name="ComboRoles" Grid.Row="6" ItemsSource="{Binding Roles}" HorizontalAlignment="Right" Width="200"  Margin="0 20 0 0">
+			<ComboBox.ItemTemplate>
+				<DataTemplate>
+					<TextBlock Name="NameRoleText" FontWeight="Bold" Text="{Binding NameRole}"/>
+				</DataTemplate>
+			</ComboBox.ItemTemplate>
+		</ComboBox>
+		
+		
+        <Button Content="Сохранить"
+                Margin="10" Grid.Row="8" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="Button_OnClick"/>
+        
+    </Grid>
+    
+</Window>

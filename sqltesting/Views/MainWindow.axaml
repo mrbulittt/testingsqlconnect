@@ -1,0 +1,21 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:sqltesting.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="800"
+        x:Class="sqltesting.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="sqltesting">
+
+    <Grid RowDefinitions="Auto, Auto, Auto">
+		<StackPanel  Orientation="Horizontal" HorizontalAlignment="Center" >
+        <Button Content="Users" Click="Button_Users" Margin="10"/>
+		<Button Content="Items" Click="Button_Items" Margin="10"/>
+		<Button Content="Basket" Click="Button_Basket" Margin="10"/>
+		</StackPanel>
+		<ContentControl Grid.Row="1" Name="MainControl"/>
+    </Grid>
+
+</Window>

@@ -1,0 +1,432 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\controlpages\\basketpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\controlpages\\basketpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\controlpages\\userspage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\controlpages\\userspage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\controlpages\\itemspage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\controlpages\\itemspage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\controlpages\\itemspage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\controlpages\\itemspage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\views\\createandchangeitem.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\views\\createandchangeitem.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\views\\createandchangeitem.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\views\\createandchangeitem.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\controlpages\\basketpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\controlpages\\basketpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\views\\createandchangeuser.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\views\\createandchangeuser.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\data\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\data\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\views\\createandchangebasket.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\views\\createandchangebasket.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\data\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\data\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\views\\createandchangebasket.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\views\\createandchangebasket.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\views\\createandchangeuser.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\views\\createandchangeuser.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\models\\uservariabledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\models\\uservariabledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\controlpages\\userspage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\controlpages\\userspage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\data\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\data\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|c:\\users\\bulat\\riderprojects\\sqltesting\\sqltesting\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAC4E18-D866-4A1E-9A73-DA98DBB8CD5B}|sqltesting\\sqltesting.csproj|solutionrelative:sqltesting\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateAndChangeItem.axaml",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Views\\CreateAndChangeItem.axaml",
+              "RelativeDocumentMoniker": "sqltesting\\Views\\CreateAndChangeItem.axaml",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Views\\CreateAndChangeItem.axaml",
+              "RelativeToolTip": "sqltesting\\Views\\CreateAndChangeItem.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-15T17:15:19.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "sqltesting\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "sqltesting\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T06:50:38.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Data\\Item.cs",
+              "RelativeDocumentMoniker": "sqltesting\\Data\\Item.cs",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Data\\Item.cs",
+              "RelativeToolTip": "sqltesting\\Data\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T17:19:30.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemsPage.axaml",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\ControlPages\\ItemsPage.axaml",
+              "RelativeDocumentMoniker": "sqltesting\\ControlPages\\ItemsPage.axaml",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\ControlPages\\ItemsPage.axaml",
+              "RelativeToolTip": "sqltesting\\ControlPages\\ItemsPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-15T07:31:57.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersPage.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\ControlPages\\UsersPage.axaml.cs",
+              "RelativeDocumentMoniker": "sqltesting\\ControlPages\\UsersPage.axaml.cs",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\ControlPages\\UsersPage.axaml.cs",
+              "RelativeToolTip": "sqltesting\\ControlPages\\UsersPage.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T07:25:11.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemsPage.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\ControlPages\\ItemsPage.axaml.cs",
+              "RelativeDocumentMoniker": "sqltesting\\ControlPages\\ItemsPage.axaml.cs",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\ControlPages\\ItemsPage.axaml.cs",
+              "RelativeToolTip": "sqltesting\\ControlPages\\ItemsPage.axaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T07:31:57.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BasketPAge.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\ControlPages\\BasketPAge.axaml.cs",
+              "RelativeDocumentMoniker": "sqltesting\\ControlPages\\BasketPAge.axaml.cs",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\ControlPages\\BasketPAge.axaml.cs",
+              "RelativeToolTip": "sqltesting\\ControlPages\\BasketPAge.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T07:32:34.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateAndChangeBasket.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Views\\CreateAndChangeBasket.axaml.cs",
+              "RelativeDocumentMoniker": "sqltesting\\Views\\CreateAndChangeBasket.axaml.cs",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Views\\CreateAndChangeBasket.axaml.cs",
+              "RelativeToolTip": "sqltesting\\Views\\CreateAndChangeBasket.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T17:42:24.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateAndChangeItem.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Views\\CreateAndChangeItem.axaml.cs",
+              "RelativeDocumentMoniker": "sqltesting\\Views\\CreateAndChangeItem.axaml.cs",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Views\\CreateAndChangeItem.axaml.cs",
+              "RelativeToolTip": "sqltesting\\Views\\CreateAndChangeItem.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T17:15:19.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateAndChangeUser.axaml",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Views\\CreateAndChangeUser.axaml",
+              "RelativeDocumentMoniker": "sqltesting\\Views\\CreateAndChangeUser.axaml",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Views\\CreateAndChangeUser.axaml",
+              "RelativeToolTip": "sqltesting\\Views\\CreateAndChangeUser.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-10T15:18:52.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BasketPAge.axaml",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\ControlPages\\BasketPAge.axaml",
+              "RelativeDocumentMoniker": "sqltesting\\ControlPages\\BasketPAge.axaml",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\ControlPages\\BasketPAge.axaml",
+              "RelativeToolTip": "sqltesting\\ControlPages\\BasketPAge.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-15T07:32:35.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateAndChangeBasket.axaml",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Views\\CreateAndChangeBasket.axaml",
+              "RelativeDocumentMoniker": "sqltesting\\Views\\CreateAndChangeBasket.axaml",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Views\\CreateAndChangeBasket.axaml",
+              "RelativeToolTip": "sqltesting\\Views\\CreateAndChangeBasket.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-15T17:42:25.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Basket.cs",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Data\\Basket.cs",
+              "RelativeDocumentMoniker": "sqltesting\\Data\\Basket.cs",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Data\\Basket.cs",
+              "RelativeToolTip": "sqltesting\\Data\\Basket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T05:24:14.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateAndChangeUser.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Views\\CreateAndChangeUser.axaml.cs",
+              "RelativeDocumentMoniker": "sqltesting\\Views\\CreateAndChangeUser.axaml.cs",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Views\\CreateAndChangeUser.axaml.cs",
+              "RelativeToolTip": "sqltesting\\Views\\CreateAndChangeUser.axaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowCAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T15:18:51.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserVariableData.cs",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Models\\UserVariableData.cs",
+              "RelativeDocumentMoniker": "sqltesting\\Models\\UserVariableData.cs",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Models\\UserVariableData.cs",
+              "RelativeToolTip": "sqltesting\\Models\\UserVariableData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T06:56:59.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Data\\User.cs",
+              "RelativeDocumentMoniker": "sqltesting\\Data\\User.cs",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Data\\User.cs",
+              "RelativeToolTip": "sqltesting\\Data\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T06:53:07.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Views\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "sqltesting\\Views\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Views\\MainWindow.axaml",
+              "RelativeToolTip": "sqltesting\\Views\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-10T15:18:55.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "App.axaml",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\App.axaml",
+              "RelativeDocumentMoniker": "sqltesting\\App.axaml",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\App.axaml",
+              "RelativeToolTip": "sqltesting\\App.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-12T07:21:56.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UsersPage.axaml",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\ControlPages\\UsersPage.axaml",
+              "RelativeDocumentMoniker": "sqltesting\\ControlPages\\UsersPage.axaml",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\ControlPages\\UsersPage.axaml",
+              "RelativeToolTip": "sqltesting\\ControlPages\\UsersPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-15T07:25:12.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Views\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "sqltesting\\Views\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Views\\MainWindow.axaml.cs",
+              "RelativeToolTip": "sqltesting\\Views\\MainWindow.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T15:18:57.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "App.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\App.axaml.cs",
+              "RelativeDocumentMoniker": "sqltesting\\App.axaml.cs",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\App.axaml.cs",
+              "RelativeToolTip": "sqltesting\\App.axaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T07:43:10.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "sqltesting\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "sqltesting\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T06:52:57.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Data\\Role.cs",
+              "RelativeDocumentMoniker": "sqltesting\\Data\\Role.cs",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Data\\Role.cs",
+              "RelativeToolTip": "sqltesting\\Data\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T06:53:03.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Data\\Login.cs",
+              "RelativeDocumentMoniker": "sqltesting\\Data\\Login.cs",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\Data\\Login.cs",
+              "RelativeToolTip": "sqltesting\\Data\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T06:53:15.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\ViewModels\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "sqltesting\\ViewModels\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\ViewModels\\ViewModelBase.cs",
+              "RelativeToolTip": "sqltesting\\ViewModels\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T06:48:40.506Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
