@@ -19,7 +19,7 @@ public partial class BasketPAge : UserControl
 
     private async void AddButton_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
-        UserVariableData.selectedItemInMainWidow = null;
+        UserVariableData.selectedBasketInMainWindow = null;
 
         var createAndChangeBasket = new CreateAndChangeBasket();
         var parent = this.VisualRoot as Window;
@@ -32,11 +32,11 @@ public partial class BasketPAge : UserControl
 
     private async void DataGrid_DoubleTapped(object? sender, Avalonia.Input.TappedEventArgs e)
     {
-        var selectedItem = BasketDataGrid.SelectedItem as Item;
+        var selectedBasket = BasketDataGrid.SelectedItem as Basket;
 
-        if (selectedItem == null) return;
+        if (selectedBasket == null) return;
 
-        UserVariableData.selectedItemInMainWidow = selectedItem;
+        UserVariableData.selectedBasketInMainWindow = selectedBasket;
 
         var parent = this.VisualRoot as Window;
         if (parent == null) return;

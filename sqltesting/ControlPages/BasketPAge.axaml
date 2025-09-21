@@ -12,9 +12,10 @@
 				  DoubleTapped="DataGrid_DoubleTapped" 
 				  Name="BasketDataGrid" Grid.Row="0" 
 				  ItemsSource="{Binding Baskets}">
+			
 			<DataGrid.Columns>
-				<DataGridTextColumn Header="FullName" Binding="{Binding IdItemNavigation.NameItem}"/>
-				<DataGridTextColumn Header="NameItem" Binding="{Binding IdUserNavigation.FullName}"/>
+				<DataGridTextColumn Header="FullName" Binding="{Binding IdUserNavigation.FullName}"/>
+				<DataGridTextColumn Header="NameItem" Binding="{Binding IdItemNavigation.NameItem}"/>
 				<DataGridTextColumn Header="Count" Binding="{Binding Count}"/>
 
 				<DataGridTemplateColumn Header="Delete" Width="50">

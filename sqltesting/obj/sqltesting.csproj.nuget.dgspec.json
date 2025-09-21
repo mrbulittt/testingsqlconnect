@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\sqltesting.csproj": {}
+    "C:\\Users\\bulat\\RiderProjects\\testingsqlconnect\\sqltesting\\sqltesting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\sqltesting.csproj": {
+    "C:\\Users\\bulat\\RiderProjects\\testingsqlconnect\\sqltesting\\sqltesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\sqltesting.csproj",
+        "projectUniqueName": "C:\\Users\\bulat\\RiderProjects\\testingsqlconnect\\sqltesting\\sqltesting.csproj",
         "projectName": "sqltesting",
-        "projectPath": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\sqltesting.csproj",
+        "projectPath": "C:\\Users\\bulat\\RiderProjects\\testingsqlconnect\\sqltesting\\sqltesting.csproj",
         "packagesPath": "C:\\Users\\bulat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bulat\\RiderProjects\\sqltesting\\sqltesting\\obj\\",
+        "outputPath": "C:\\Users\\bulat\\RiderProjects\\testingsqlconnect\\sqltesting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
