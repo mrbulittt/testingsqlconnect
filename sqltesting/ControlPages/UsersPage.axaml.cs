@@ -17,37 +17,36 @@ public partial class UsersPage : UserControl
     public UsersPage()
     {
         InitializeComponent();
-        DataGridUsers.ItemsSource = App.DbContext.Users.ToList();
+        DataGridUsers.ItemsSource = App.DbContext.Logins.ToList();
     }
 
     private async void Button_OnClick(object? sender, RoutedEventArgs e)
     {
+        UserVariableData.SeletedLoginInMainWindow = null;
         UserVariableData.seletedUserInMainWindow = null;
 
-        var createAndChangeUserWindow = new CreateAndChangeUser();
         var parent = this.VisualRoot as Window;
+        var createdAndChangeUserWindow = new CreateAndChangeUser();
+        await createdAndChangeUserWindow.ShowDialog(parent);
 
-        await createAndChangeUserWindow.ShowDialog(parent);
-
-        DataGridUsers.ItemsSource = App.DbContext.Users.ToList();
+        DataGridUsers.ItemsSource = App.DbContext.Logins.ToList();
 
     }
 
     private async void InputElement_OnDoubleTapped(object? sender, TappedEventArgs e)
     {
 
-        var selectedUser = DataGridUsers.SelectedItem as User;
+       var selectedLogin = DataGridUsers.SelectedItem as Login;
+        if (selectedLogin == null) return;
 
-        if (selectedUser == null) return;
-
-        UserVariableData.seletedUserInMainWindow = selectedUser;
+        UserVariableData.SeletedLoginInMainWindow = selectedLogin;
+        UserVariableData.seletedUserInMainWindow = selectedLogin.IdUserNavigation; 
 
         var parent = this.VisualRoot as Window;
-        if (parent == null) return;
-        var createAndChangeUserWindow = new CreateAndChangeUser();
-        await createAndChangeUserWindow.ShowDialog(parent);
+        var createdAndChangeUserWindow = new CreateAndChangeUser();
+        await createdAndChangeUserWindow.ShowDialog(parent);
 
-        DataGridUsers.ItemsSource = App.DbContext.Users.ToList();
+        DataGridUsers.ItemsSource = App.DbContext.Logins.ToList();
     }
     private async void DeleteButton_Click(object? sender, RoutedEventArgs e)
     {

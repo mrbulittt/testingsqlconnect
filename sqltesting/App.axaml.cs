@@ -16,6 +16,7 @@ public partial class App : Application
     public override void Initialize()
     {
         AvaloniaXamlLoader.Load(this);
+        DbContext.Users.ToList();
     }
 
     public override void OnFrameworkInitializationCompleted()

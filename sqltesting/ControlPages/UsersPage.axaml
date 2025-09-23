@@ -9,9 +9,9 @@
 	<Grid RowDefinitions="*, Auto">
 		<DataGrid  IsReadOnly="True" DoubleTapped="InputElement_OnDoubleTapped" Name="DataGridUsers" Grid.Row="0">
 			<DataGrid.Columns>
-				<DataGridTextColumn Header="Full Name" Binding="{Binding FullName}"/>
-				<DataGridTextColumn Header="Phone Number" Binding="{Binding PhoneNumber}"/>
-				<DataGridTextColumn Header="Desctiption" Binding="{Binding Description}"/>
+				<DataGridTextColumn Header="Full Name" Binding="{Binding IdUserNavigation.FullName}"/>
+				<DataGridTextColumn Header="Phone Number" Binding="{Binding IdUserNavigation.PhoneNumber}"/>
+				<DataGridTextColumn Header="Desctiption" Binding="{Binding IdUserNavigation.Description}"/>
 
 				<DataGridTemplateColumn Header="Delete" Width="50">
 					<DataGridTemplateColumn.CellTemplate>
