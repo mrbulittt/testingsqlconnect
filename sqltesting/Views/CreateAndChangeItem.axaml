@@ -5,19 +5,18 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="sqltesting.CreateAndChangeItem"
         Title="CreateAndChangeItem"
-		xmlns:vm="using:sqltesting.ViewModels"
-		x:DataType="vm:MainWindowViewModel">
+		>
 
 	<Grid>
 		<StackPanel Orientation="Vertical">
 			<TextBlock Text="Название продукта:" Margin="10 10 0 0"/>
-			<TextBox Grid.Row="1" Name="ItemNameText" Width="300" Margin="10 0 0 0" HorizontalAlignment="Left"/>
+			<TextBox Grid.Row="1" Name="ItemNameText" Text="{Binding NameItem}" Width="300" Margin="10 0 0 0" HorizontalAlignment="Left"/>
 			
 			<TextBlock Text="Цена (Руб):" Margin="10 10 0 0"/>
-			<TextBox Grid.Row="6" Name="ItemCostText" Width="300" Margin="10 0 0 0" HorizontalAlignment="Left"/>
+			<TextBox Grid.Row="6" Name="ItemCostText" Text="{Binding Cost}" Width="300" Margin="10 0 0 0" HorizontalAlignment="Left"/>
 
 			<TextBlock Text="Описание продукта:" Margin="10 10 0 0"/>
-			<TextBox Grid.Row="4" Name="ItemDescText"  Height="100" Width="300" Margin="10 0 0 0" HorizontalAlignment="Left"/>
+			<TextBox Grid.Row="4" Name="ItemDescText" Text="{Binding DescriptionItem}"  Height="100" Width="300" Margin="10 0 0 0" HorizontalAlignment="Left"/>
 			
 			<Button Name="SaveUserButton" Content="Сохранить"  HorizontalAlignment="Right" Click="SaveUserButton_Click"/>
 		</StackPanel>

@@ -5,6 +5,7 @@ using sqltesting.Data;
 using sqltesting.Models;
 using sqltesting.ViewModels;
 using System;
+using System.Linq;
 
 namespace sqltesting;
 
@@ -13,6 +14,7 @@ public partial class ItemsPage : UserControl
     public ItemsPage()
     {
         InitializeComponent();
+        DataGridItems.ItemsSource = App.DbContext.Items.ToList();
     }
 
     private async void Button_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
@@ -24,8 +26,7 @@ public partial class ItemsPage : UserControl
 
         await createAndChangeItem.ShowDialog(parent);
 
-        var viewModel = DataContext as MainWindowViewModel;
-        viewModel.RefreshData();
+        DataGridItems.ItemsSource = App.DbContext.Items.ToList();
     }
 
     private void DeleteButton_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
@@ -45,8 +46,7 @@ public partial class ItemsPage : UserControl
         App.DbContext.Items.Remove(selectedItem);
         App.DbContext.SaveChanges();
 
-        var viewModel = DataContext as MainWindowViewModel;
-        viewModel.RefreshData();
+        DataGridItems.ItemsSource = App.DbContext.Items.ToList();
     }
 
     private async void DataGrid_DoubleTapped(object? sender, Avalonia.Input.TappedEventArgs e)
@@ -62,7 +62,6 @@ public partial class ItemsPage : UserControl
         var createAndChangeItem = new CreateAndChangeItem();
         await createAndChangeItem.ShowDialog(parent);
 
-        var viewModel = DataContext as MainWindowViewModel;
-        viewModel.RefreshData();
+        DataGridItems.ItemsSource = App.DbContext.Items.ToList();
     }
 }

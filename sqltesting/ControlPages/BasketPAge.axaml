@@ -4,14 +4,13 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="sqltesting.BasketPAge"
-			 xmlns:vm="using:sqltesting.ViewModels"
-			 x:DataType="vm:MainWindowViewModel">
+			 >
 
 	<Grid RowDefinitions="*, Auto">
 		<DataGrid IsReadOnly="True" 
 				  DoubleTapped="DataGrid_DoubleTapped" 
 				  Name="BasketDataGrid" Grid.Row="0" 
-				  ItemsSource="{Binding Baskets}">
+				 >
 			
 			<DataGrid.Columns>
 				<DataGridTextColumn Header="FullName" Binding="{Binding IdUserNavigation.FullName}"/>

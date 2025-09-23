@@ -4,11 +4,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="sqltesting.UsersPage"
-			 xmlns:vm="using:sqltesting.ViewModels"
-			 x:DataType="vm:MainWindowViewModel">
+			 >
 			
 	<Grid RowDefinitions="*, Auto">
-		<DataGrid ItemsSource="{Binding Users}" IsReadOnly="True" DoubleTapped="InputElement_OnDoubleTapped" Name="DataGridUsers" Grid.Row="0">
+		<DataGrid  IsReadOnly="True" DoubleTapped="InputElement_OnDoubleTapped" Name="DataGridUsers" Grid.Row="0">
 			<DataGrid.Columns>
 				<DataGridTextColumn Header="Full Name" Binding="{Binding FullName}"/>
 				<DataGridTextColumn Header="Phone Number" Binding="{Binding PhoneNumber}"/>

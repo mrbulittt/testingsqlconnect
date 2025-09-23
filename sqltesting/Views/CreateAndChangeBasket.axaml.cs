@@ -13,7 +13,8 @@ public partial class CreateAndChangeBasket : Window
     public CreateAndChangeBasket()
     {
         InitializeComponent();
-        DataContext = new MainWindowViewModel();
+        ComboUsers.ItemsSource = App.DbContext.Users.ToList();
+        ComboItems.ItemsSource = App.DbContext.Items.ToList();
 
         if (UserVariableData.selectedBasketInMainWindow == null) return;
         ComboUsers.SelectedItem = UserVariableData.selectedBasketInMainWindow.IdUserNavigation;

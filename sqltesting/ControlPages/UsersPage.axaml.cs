@@ -8,6 +8,7 @@ using sqltesting.Models;
 using sqltesting.ViewModels;
 using sqltesting.Views;
 using System;
+using System.Linq;
 
 namespace sqltesting;
 
@@ -16,7 +17,7 @@ public partial class UsersPage : UserControl
     public UsersPage()
     {
         InitializeComponent();
-        DataContext = new MainWindowViewModel();
+        DataGridUsers.ItemsSource = App.DbContext.Users.ToList();
     }
 
     private async void Button_OnClick(object? sender, RoutedEventArgs e)
@@ -28,8 +29,7 @@ public partial class UsersPage : UserControl
 
         await createAndChangeUserWindow.ShowDialog(parent);
 
-        var viewModel = DataContext as MainWindowViewModel;
-        viewModel.RefreshData();
+        DataGridUsers.ItemsSource = App.DbContext.Users.ToList();
 
     }
 
@@ -47,8 +47,7 @@ public partial class UsersPage : UserControl
         var createAndChangeUserWindow = new CreateAndChangeUser();
         await createAndChangeUserWindow.ShowDialog(parent);
 
-        var viewModel = DataContext as MainWindowViewModel;
-        viewModel.RefreshData();
+        DataGridUsers.ItemsSource = App.DbContext.Users.ToList();
     }
     private async void DeleteButton_Click(object? sender, RoutedEventArgs e)
     {
@@ -67,7 +66,6 @@ public partial class UsersPage : UserControl
         App.DbContext.Users.Remove(selectedUser);
         App.DbContext.SaveChanges();
 
-        var viewModel = DataContext as MainWindowViewModel;
-        viewModel.RefreshData();
+        DataGridUsers.ItemsSource = App.DbContext.Users.ToList();
     }
 }

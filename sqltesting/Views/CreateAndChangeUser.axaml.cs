@@ -16,14 +16,20 @@ public partial class CreateAndChangeUser : Window
     {
         InitializeComponent();
 
-        DataContext = new MainWindowViewModel();
+        ComboRoles.ItemsSource = App.DbContext.Roles.ToList();
 
-        if (UserVariableData.seletedUserInMainWindow == null && UserVariableData.SeletedLoginInMainWindow == null) return;
+        ComboRoles.SelectedItem = UserVariableData.selectedRoleInMainWindow.NameRole;
 
-        FullNameText.Text = UserVariableData.seletedUserInMainWindow.FullName;
-        PhoneNumberText.Text = UserVariableData.seletedUserInMainWindow.PhoneNumber;
-        DescriptionText.Text = UserVariableData.seletedUserInMainWindow.Description;
-        ComboRoles.SelectedItem = UserVariableData.seletedUserInMainWindow.IdRoleNavigation;
+        if (UserVariableData.seletedUserInMainWindow == null && UserVariableData.SeletedLoginInMainWindow == null)
+        {
+            DataContext = new User();
+            ComboRoles.SelectedItem = UserVariableData.selectedRoleInMainWindow.NameRole;
+            return;
+        }
+
+        
+
+       DataContext = UserVariableData.seletedUserInMainWindow;
 
         var userLogin = App.DbContext.Logins.FirstOrDefault(x => x.IdUser == UserVariableData.seletedUserInMainWindow.IdUser);
 
@@ -33,7 +39,7 @@ public partial class CreateAndChangeUser : Window
             Login1Text.Text = userLogin.Login1;
             PasswordText.Text = userLogin.Password;
         }
-        
+
 
 
 
@@ -49,55 +55,64 @@ public partial class CreateAndChangeUser : Window
        
 
         if (UserVariableData.seletedUserInMainWindow != null)
-            {
+        {
                 var idUser = UserVariableData.seletedUserInMainWindow.IdUser;
                 var thisUser = App.DbContext.Users.FirstOrDefault(x => x.IdUser == idUser);
-
+                
                 if (thisUser == null) return;
 
-                thisUser.FullName = FullNameText.Text;
-                thisUser.PhoneNumber = PhoneNumberText.Text;
-                thisUser.Description = DescriptionText.Text;
-                thisUser.IdRoleNavigation = ComboRoles.SelectedItem as Role;
+                var userChange = DataContext as User;
+                
+                thisUser = userChange;
+            thisUser.IdRoleNavigation = ComboRoles.SelectedItem as Role;
+                
+                
 
-                var userLogin = App.DbContext.Logins.FirstOrDefault(x => x.IdUser == idUser);
-                if (userLogin != null)
-                {
-                    userLogin.Login1 = Login1Text.Text;
-                    userLogin.Password = PasswordText.Text;
-                }
-                else
-                {
-                    var newLogin = new Login
-                    {
-                        Login1 = Login1Text.Text,
-                        Password = PasswordText.Text,
-                        IdUser = idUser
-                    };
-                    App.DbContext.Logins.Add(newLogin);
-                }
-            }
-        else
+            
+
+            var userLogin = App.DbContext.Logins.FirstOrDefault(x => x.IdUser == idUser);
+            if (userLogin != null)
             {
-                var newUser = new User
-                {
-                    FullName = FullNameText.Text,
-                    PhoneNumber = PhoneNumberText.Text,
-                    Description = DescriptionText.Text,
-                    IdRoleNavigation = ComboRoles.SelectedItem as Role
-                };
-
-                App.DbContext.Users.Add(newUser);
-                App.DbContext.SaveChanges(); // Получаем IdUser
-
+                userLogin.Login1 = Login1Text.Text;
+                userLogin.Password = PasswordText.Text;
+            }
+            else
+            {
                 var newLogin = new Login
                 {
                     Login1 = Login1Text.Text,
                     Password = PasswordText.Text,
-                    IdUser = newUser.IdUser
+                    IdUser = idUser
                 };
-
                 App.DbContext.Logins.Add(newLogin);
+            }
+        }
+        else
+            {
+                //var newUser = new User
+                //{
+                //    FullName = FullNameText.Text,
+                //    PhoneNumber = PhoneNumberText.Text,
+                //    Description = DescriptionText.Text,
+                //    IdRoleNavigation = ComboRoles.SelectedItem as Role
+                //};
+
+                var userCreate = DataContext as User;
+                if (userCreate == null) return;
+
+                App.DbContext.Users.Add(userCreate);
+                App.DbContext.SaveChanges();
+
+
+
+            var newLogin = new Login
+            {
+                Login1 = Login1Text.Text,
+                Password = PasswordText.Text,
+                IdUser = userCreate.IdUser
+            };
+
+            App.DbContext.Logins.Add(newLogin);
             }
 
             App.DbContext.SaveChanges();

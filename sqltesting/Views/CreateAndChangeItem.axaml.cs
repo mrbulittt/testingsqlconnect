@@ -13,14 +13,10 @@ public partial class CreateAndChangeItem : Window
     public CreateAndChangeItem()
     {
         InitializeComponent();
-        DataContext = new MainWindowViewModel();
 
-        if (UserVariableData.selectedItemInMainWidow != null)
-        {
-            ItemNameText.Text = UserVariableData.selectedItemInMainWidow.NameItem;
-            ItemDescText.Text = UserVariableData.selectedItemInMainWidow.DescriptionItem;
-            ItemCostText.Text = UserVariableData.selectedItemInMainWidow.Cost.ToString();
-        }
+
+        if (UserVariableData.selectedItemInMainWidow == null) return;
+        DataContext = UserVariableData.selectedItemInMainWidow;
     }
     private void SaveUserButton_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
@@ -33,23 +29,16 @@ public partial class CreateAndChangeItem : Window
 
             if (thisItem == null) return;
 
-            thisItem.NameItem = ItemNameText.Text;
-            thisItem.DescriptionItem = ItemDescText.Text;
-            thisItem.Cost = int.Parse(ItemCostText.Text);
-
+            var itemChange = DataContext as Item;
+            thisItem = itemChange;
            
 
         }
         else
         {
-            var newItem = new Item()
-            {
-                NameItem = ItemNameText.Text,
-                DescriptionItem = ItemDescText.Text,
-                Cost = int.Parse(ItemCostText.Text),
-            };
+            var itemCreate = DataContext as Item;
 
-            App.DbContext.Items.Add(newItem);
+            App.DbContext.Items.Add(itemCreate);
 
             App.DbContext.SaveChanges();
 

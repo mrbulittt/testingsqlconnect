@@ -5,13 +5,12 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="sqltesting.CreateAndChangeBasket"
         Title="CreateAndChangeBasket"
-		xmlns:vm="using:sqltesting.ViewModels"
-		x:DataType="vm:MainWindowViewModel">
+		>
 	
 	<Grid RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto, Auto">
 
 		<TextBlock Text="Пользователь:" Grid.Row="0" HorizontalAlignment="Left"/>
-		<ComboBox Name="ComboUsers" Grid.Row="1" ItemsSource="{Binding Users}" HorizontalAlignment="Left" Width="200"  Margin="0 20 0 0">
+		<ComboBox Name="ComboUsers" Grid.Row="1"  HorizontalAlignment="Left" Width="200"  Margin="0 20 0 0">
 			<ComboBox.ItemTemplate>
 				<DataTemplate>
 					<TextBlock Name="NameUserText" FontWeight="Bold" Text="{Binding FullName}"/>
@@ -20,7 +19,7 @@
 		</ComboBox>
 
 		<TextBlock Text="Товар:" Grid.Row="2" HorizontalAlignment="Left"/>
-		<ComboBox Name="ComboItems" Grid.Row="3" ItemsSource="{Binding Items}" HorizontalAlignment="Left" Width="200"  Margin="0 20 0 0">
+		<ComboBox Name="ComboItems" Grid.Row="3"  HorizontalAlignment="Left" Width="200"  Margin="0 20 0 0">
 			<ComboBox.ItemTemplate>
 				<DataTemplate>
 					<TextBlock Name="NameItemText" FontWeight="Bold" Text="{Binding NameItem}"/>

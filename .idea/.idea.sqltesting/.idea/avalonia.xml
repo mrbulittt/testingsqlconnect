@@ -4,6 +4,7 @@
     <option name="projectPerEditor">
       <map>
         <entry key="sqltesting/App.axaml" value="sqltesting/sqltesting.csproj" />
+        <entry key="sqltesting/ControlPages/BasketPAge.axaml" value="sqltesting/sqltesting.csproj" />
         <entry key="sqltesting/ControlPages/UsersPage.axaml" value="sqltesting/sqltesting.csproj" />
         <entry key="sqltesting/Views/ChangeLoginWindow.axaml" value="sqltesting/sqltesting.csproj" />
         <entry key="sqltesting/Views/CreateAndChangeUser.axaml" value="sqltesting/sqltesting.csproj" />

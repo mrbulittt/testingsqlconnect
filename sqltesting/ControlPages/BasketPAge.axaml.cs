@@ -5,6 +5,7 @@ using sqltesting.Data;
 using sqltesting.Models;
 using sqltesting.ViewModels;
 using System;
+using System.Linq;
 
 
 namespace sqltesting;
@@ -14,7 +15,7 @@ public partial class BasketPAge : UserControl
     public BasketPAge()
     {
         InitializeComponent();
-        
+        BasketDataGrid.ItemsSource = App.DbContext.Baskets.ToList();
     }
 
     private async void AddButton_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
@@ -26,8 +27,7 @@ public partial class BasketPAge : UserControl
 
         await createAndChangeBasket.ShowDialog(parent);
 
-        var viewModel = DataContext as MainWindowViewModel;
-        viewModel.RefreshData();
+        BasketDataGrid.ItemsSource = App.DbContext.Baskets.ToList();
     }
 
     private async void DataGrid_DoubleTapped(object? sender, Avalonia.Input.TappedEventArgs e)
@@ -43,8 +43,7 @@ public partial class BasketPAge : UserControl
         var createAndChangeBasket = new CreateAndChangeBasket();
         await createAndChangeBasket.ShowDialog(parent);
 
-        var viewModel = DataContext as MainWindowViewModel;
-        viewModel.RefreshData();
+        BasketDataGrid.ItemsSource = App.DbContext.Baskets.ToList();
     }
     private void DeleteButton_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
@@ -63,7 +62,6 @@ public partial class BasketPAge : UserControl
         App.DbContext.Baskets.Remove(selectedBasket);
         App.DbContext.SaveChanges();
 
-        var viewModel = DataContext as MainWindowViewModel;
-        viewModel.RefreshData();
+        BasketDataGrid.ItemsSource = App.DbContext.Baskets.ToList();
     }
 }
